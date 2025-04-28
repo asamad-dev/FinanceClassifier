@@ -1,11 +1,113 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.14">
   <diagram name="Page-1" id="-Porn5q69pJKB6e0TvHD">
-    <mxGraphModel dx="1426" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1238" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hhpjWOZ0reYCbAaIe3Vi-1" target="hhpjWOZ0reYCbAaIe3Vi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-1" value="&lt;div&gt;Single Transaction&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hhpjWOZ0reYCbAaIe3Vi-2" target="hhpjWOZ0reYCbAaIe3Vi-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-13" value="&lt;div&gt;Debit&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpjWOZ0reYCbAaIe3Vi-5">
+          <mxGeometry x="-0.3077" y="1" relative="1" as="geometry">
+            <mxPoint x="5" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hhpjWOZ0reYCbAaIe3Vi-2" target="hhpjWOZ0reYCbAaIe3Vi-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="300" as="sourcePoint" />
+            <mxPoint x="80" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-12" value="Credit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpjWOZ0reYCbAaIe3Vi-6">
+          <mxGeometry x="-0.2154" y="-1" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-2" value="Check Amount" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hhpjWOZ0reYCbAaIe3Vi-9" target="hhpjWOZ0reYCbAaIe3Vi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-21" value="Found" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpjWOZ0reYCbAaIe3Vi-15">
+          <mxGeometry x="0.0727" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hhpjWOZ0reYCbAaIe3Vi-9" target="hhpjWOZ0reYCbAaIe3Vi-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-25" value="Not Found" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpjWOZ0reYCbAaIe3Vi-24">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-9" value="Check in Credit Database" style="rhombus;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="380" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-14" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="415" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hhpjWOZ0reYCbAaIe3Vi-17" target="hhpjWOZ0reYCbAaIe3Vi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-22" value="Found" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpjWOZ0reYCbAaIe3Vi-18">
+          <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hhpjWOZ0reYCbAaIe3Vi-17" target="hhpjWOZ0reYCbAaIe3Vi-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-32" value="Not Found" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpjWOZ0reYCbAaIe3Vi-29">
+          <mxGeometry x="-0.2857" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-17" value="Check in Debit Database" style="rhombus;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="380" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hhpjWOZ0reYCbAaIe3Vi-23" target="hhpjWOZ0reYCbAaIe3Vi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-27" value="Found" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpjWOZ0reYCbAaIe3Vi-26">
+          <mxGeometry x="-0.3716" relative="1" as="geometry">
+            <mxPoint x="-1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-23" value="Google Search" style="rhombus;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="570" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hhpjWOZ0reYCbAaIe3Vi-28" target="hhpjWOZ0reYCbAaIe3Vi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-31" value="Found" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpjWOZ0reYCbAaIe3Vi-30">
+          <mxGeometry x="-0.2591" relative="1" as="geometry">
+            <mxPoint x="11" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-28" value="Google Search" style="rhombus;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="570" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-34" value="&lt;li data-pm-slice=&quot;2 4 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;start&amp;quot;:141,&amp;quot;end&amp;quot;:1507}]&quot;&gt;&lt;p&gt;&lt;span&gt;&quot;zelle&quot;, &quot;deposit&quot;, &quot;payment received&quot;, &quot;mobile deposit&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Gross Trucking Income&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li data-pm-slice=&quot;2 4 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;start&amp;quot;:141,&amp;quot;end&amp;quot;:1507}]&quot;&gt;&lt;p&gt;&lt;span&gt;&quot;refund&quot;, &quot;rebate&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Reimbursement&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li data-pm-slice=&quot;2 4 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;start&amp;quot;:141,&amp;quot;end&amp;quot;:1507}]&quot;&gt;&lt;p&gt;&lt;span&gt;&quot;purchase return&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Return&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li data-pm-slice=&quot;2 4 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;start&amp;quot;:141,&amp;quot;end&amp;quot;:1507}]&quot;&gt;&lt;p&gt;&lt;span&gt;IF &quot;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;strong&gt;Return&quot;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;fontana ca&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Subhaulers &amp;amp; Carriers&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span&gt;Else → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Not Found&lt;/strong&gt;&lt;/span&gt;&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="310" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-36" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Credit&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="260" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-37" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Debit&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpjWOZ0reYCbAaIe3Vi-39" value="&lt;ul data-spread=&quot;false&quot; data-pm-slice=&quot;3 3 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;start&amp;quot;:141,&amp;quot;end&amp;quot;:1507},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:498,&amp;quot;end&amp;quot;:1507},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:512,&amp;quot;end&amp;quot;:1507},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:512,&amp;quot;end&amp;quot;:1312}]&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;zelle&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Gross Trucking Income&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;fuel&quot;, &quot;pump&quot;, &quot;gas&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Fuel Cost&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;insurance&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Insurance&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;advance&quot;, &quot;loan&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Loan or Advance&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;restaurant&quot;, &quot;grill&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Food &amp;amp; Dining&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;bar&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Entertainment&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;hotel&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Lodging&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;subscription&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Subscription&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;grocery&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Groceries&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;prepass&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Tolls and Parking&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;purchase authorized&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Subhaulers &amp;amp; Carriers&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;check&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Truck Maintenance Cost&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;pathward na&quot;, &quot;ibex&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Liability Insurance&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;jst registration&quot;, &quot;unified carrier&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Business Licenses and Permits&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;drug testing&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Drug Testing&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;cdtfa&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;CDTFA&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;tax&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Taxes&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;monthly service fee&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Bank Service Charges&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li data-pm-slice=&quot;2 4 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;start&amp;quot;:141,&amp;quot;end&amp;quot;:1507},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:498,&amp;quot;end&amp;quot;:1507},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:512,&amp;quot;end&amp;quot;:1507}]&quot;&gt;&lt;p&gt;&lt;span&gt;IF &quot;&lt;/span&gt;&lt;span&gt;CHECK&quot;&lt;/span&gt;&lt;/p&gt;&lt;ul data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;check&quot;, &quot;cashed&quot;, &quot;deposited&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Truck Maintenance Cost&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;&quot;overdraft fee&quot; → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Bank Service Charges&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:true,&amp;quot;start&amp;quot;:141,&amp;quot;end&amp;quot;:1507},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:498,&amp;quot;end&amp;quot;:1507},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:512,&amp;quot;end&amp;quot;:1507},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1475,&amp;quot;end&amp;quot;:1507}]&quot;&gt;&lt;span&gt;Else → &lt;/span&gt;&lt;span&gt;&lt;strong&gt;Not Found&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="310" width="300" height="710" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
